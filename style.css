@@ -1,23 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-main{
+
+#container1{
    
     background-color:rgba(000, 000,000,0.3);
     text-align: center;
-    padding: 20px 20px;
-    color :white;
-    height: 970px;
-    width: 1400px;
-    margin: 0 auto 0;
+    max-height: 650px;
+    max-width: 1240px;
+    margin:auto;
     
 }
 
-.background2{
-     background-color:rgba(000, 000,000,0.6);
-     height: 850px;
-     width: 400px;
+#container2{
+
+     background-color:rgba(0, 0,0,0.8);
+     max-width: 500px;
      margin: auto;
      text-align: left;
-     padding-left: 30px;
+     padding:10px 40px;
      
      
 
@@ -47,10 +45,11 @@ main{
 
 body{
     background-image: url('background_image.jpg');
+    color:white ;
 }
-#box{
+#submit-box{
     border: 1px;
-    border-radius:10px;
+    border-radius:40px;
     background-color: red ;
     padding: 12px 28px;
     font-weight: 1000;
@@ -59,6 +58,10 @@ body{
 
 }
 
-#name #contact #age{
+#name,
+#contact ,
+#age
+
+{
     padding: 14px 80px;
 }
